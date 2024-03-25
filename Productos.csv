@@ -1,11 +1,11 @@
-IDProducto;NombreProducto;PrecioPorUnidadProducto;cantidad vendida
-1;arroz diana 425gr;900;500
-2;café sello rojo 30gr;450;250
-3;azucar manuelita 1000gr;1200;390
-4;sal refisal 500gr;500;5000
-5;atun van camps 250gr;3500;300
-6;salsa de tomate fruko 500gr;3000;1300
-7;leche klim 800gr;6000;1000
-8;aceite girasol 1000ml;9800;340
-9;crema dental colgate 200gr;10000;340
-10;jabon en polbo fab 1000gr;5000;120
+IDProducto;NombreProducto;PrecioPorUnidadProducto
+1;arroz diana 425gr;900
+2;café sello rojo 30gr;450
+3;azucar manuelita 1000gr;1200
+4;sal refisal 500gr;500
+5;atun van camps 250gr;3500
+6;salsa de tomate fruko 500gr;3000
+7;leche klim 800gr;6000
+8;aceite girasol 1000ml;9800
+9;crema dental colgate 200gr;10000
+10;jabon en polbo fab 1000gr;5000
