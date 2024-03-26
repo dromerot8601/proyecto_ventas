@@ -57,6 +57,45 @@ public class GenerateInfoFiles {
     	} catch (Exception e) {
     		e.printStackTrace();
     	}
+    	
+    	// Generar archivo productos
+        try {
+            String ruta = "productos_generados.txt"; 
+            String columnas = "IDProducto1;NombreProducto;PrecioPorUnidadProducto\n"; 
+            String producto1 = "1;arroz diana 425gr;900\n";
+            String producto2 = "2;café sello rojo 30gr;450\n";
+            String producto3 = "3;azucar manuelita 1000gr;1200\n";
+            String producto4 = "4;sal refisal 500gr;500\n";
+            String producto5 = "5;atun van camps 250gr;3500\n";
+            String producto6 = "6;salsa de tomate fruko 500gr;3000\n";
+            String producto7 = "7;leche klim 800gr;6000\n";
+            String producto8 = "8;aceite girasol 1000ml;9800\n";
+            String producto9 = "9;crema dental colgate 200gr;10000\n";
+            String producto10 = "10;jabon en polbo fab 1000gr;5000\n";
+
+            
+            File file = new File(ruta);
+            if (!file.exists()) { 
+                file.createNewFile();
+                FileWriter fw = new FileWriter(file); 
+                BufferedWriter bw = new BufferedWriter(fw); 
+                bw.write(columnas);
+                bw.write(producto1);
+                bw.write(producto2);
+                bw.write(producto3);
+                bw.write(producto4);
+                bw.write(producto5);
+                bw.write(producto6);
+                bw.write(producto7);
+                bw.write(producto8);
+                bw.write(producto9);
+                bw.write(producto10);
+                bw.close();
+                System.out.println("Archivo de productos generado");
+            }
+        } catch (Exception e) {
+        	e.printStackTrace();
+        }
     } 
   
 } 
